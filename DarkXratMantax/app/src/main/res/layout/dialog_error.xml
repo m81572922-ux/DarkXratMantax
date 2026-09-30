@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card_glass"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@android:drawable/ic_dialog_alert"
+        android:tint="@color/warning"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO VALID AKUN GAGAL⚠️"
+        android:textColor="@color/text_white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnTutup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="TUTUP"
+        android:textColor="@color/text_white"
+        android:textStyle="bold"
+        android:background="@drawable/bg_button_neon"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DARK XRAT MANTAX</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sub_welcome">Masuk ke akun Anda</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="login_error">NO VALID AKUN GAGAL⚠️</string>
+    <string name="tutup">TUTUP</string>
+    <string name="skip">SKIP</string>
+    <string name="home">Home</string>
+    <string name="bug">Bug</string>
+    <string name="tools">Tools</string>
+    <string name="sadap">Sadap</string>
+    <string name="chat">Chat</string>
+    <string name="profil">Profil</string>
+    <string name="settings">Pengaturan</string>
+    <string name="logout">KELUAR</string>
+    <string name="ganti_password">GANTI PASSWORD</string>
+    <string name="role">ROLE</string>
+    <string name="sender">SENDER</string>
+    <string name="target">NOMOR TARGET</string>
+    <string name="select_bug">SELECT BUG</string>
+    <string name="select_sender">SELECT SENDER</string>
+    <string name="launch">LAUNCH ATTACK</string>
+</resources>

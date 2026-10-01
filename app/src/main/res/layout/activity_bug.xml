@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <!-- HEADER -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@android:drawable/ic_menu_revert"
+            android:tint="@color/accent_cyan"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="BUG PANEL"
+            android:textColor="@color/accent_cyan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/orbitron"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/tvSenderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="● 1 Sender Online"
+            android:textColor="@color/success"
+            android:textSize="11sp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- VIDEO BANNER -->
+            <VideoView
+                android:id="@+id/videoBug"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="8dp"/>
+
+            <!-- NOMOR TARGET -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOMOR TARGET"
+                android:textColor="@color/accent_cyan"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/etTarget"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:hint="62xxxxxxxxxx"
+                android:textColorHint="@color/text_dim"
+                android:textColor="@color/text_white"
+                android:background="@drawable/bg_input_dark"
+                android:padding="14dp"
+                android:layout_marginTop="8dp"
+                android:inputType="phone"
+                android:textSize="14sp"/>
+
+            <!-- PILIH BUG -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="PILIH BUG"
+                    android:textColor="@color/accent_cyan"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/orbitron"/>
+
+                <TextView
+                    android:id="@+id/tvSenderBadge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="● Sender : online"
+                    android:textColor="@color/success"
+                    android:textSize="11sp"
+                    android:background="@drawable/bg_card_glass"
+                    android:padding="6dp"/>
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinnerBug"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/bg_input_dark"
+                android:layout_marginTop="8dp"/>
+
+            <!-- PILIH FUNC -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PILIH FUNC"
+                android:textColor="@color/accent_cyan"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron"
+                android:layout_marginTop="20dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerFunc"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/bg_input_dark"
+                android:layout_marginTop="8dp"/>
+
+            <!-- PILIH SENDER -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="PILIH SENDER"
+                    android:textColor="@color/accent_cyan"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/orbitron"/>
+
+                <TextView
+                    android:id="@+id/tvSenderCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="● 0 sender online"
+                    android:textColor="@color/success"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinnerSender"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/bg_input_dark"
+                android:layout_marginTop="8dp"/>
+
+            <!-- TOMBOL KIRIM -->
+            <Button
+                android:id="@+id/btnLaunch"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="🚀 LAUNCH ATTACK"
+                android:textColor="@color/text_white"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="@font/orbitron"
+                android:background="@drawable/bg_button_neon"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

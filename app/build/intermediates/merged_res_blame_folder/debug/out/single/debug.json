@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/drawable_bg_gradient.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/font_orbitron.ttf.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/font/orbitron.ttf"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/raw_bg_music.mp3.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/raw/bg_music.mp3"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/drawable_bg_input_dark.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/drawable/bg_input_dark.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/drawable_bg_border_glow.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/drawable/bg_border_glow.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_activity_sadap.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/activity_sadap.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/font_jetbrains.ttf.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/font/jetbrains.ttf"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/drawable_bg_button_neon.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/drawable/bg_button_neon.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/mipmap_ic_launcher.png.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/mipmap/ic_launcher.png"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/anim_scale_glow.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/anim/scale_glow.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/anim_fade_in.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_activity_sender.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/activity_sender.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_item_sender.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/item_sender.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_activity_settings.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_activity_login.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_activity_profile.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_dialog_error.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/dialog_error.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_dialog_ganti_password.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/dialog_ganti_password.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_item_bug.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/item_bug.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/font_inter.ttf.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/font/inter.ttf"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_item_role.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/item_role.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_activity_bug.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/activity_bug.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_activity_tools.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/activity_tools.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/font_rajdhani.ttf.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/font/rajdhani.ttf"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_activity_splash.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/anim_slide_up.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/anim/slide_up.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/layout_activity_role_management.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/layout/activity_role_management.xml"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/raw_intro_anime.mp4.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/raw/intro_anime.mp4"
+    },
+    {
+        "merged": "com.darkxrat.mantax.app-merged_res-32:/drawable_bg_card_glass.xml.flat",
+        "source": "com.darkxrat.mantax.app-main-34:/drawable/bg_card_glass.xml"
+    }
+]

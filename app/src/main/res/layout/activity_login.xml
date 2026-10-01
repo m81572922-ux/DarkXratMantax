@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginTop="60dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome Back"
+                android:textColor="@color/accent_cyan"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masuk ke akun Anda"
+                android:textColor="@color/text_gray"
+                android:textSize="13sp"
+                android:fontFamily="@font/rajdhani"
+                android:layout_marginTop="6dp"/>
+
+            <!-- USERNAME -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_input_dark"
+                android:padding="14dp"
+                android:layout_marginTop="36dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@android:drawable/ic_menu_myplaces"
+                    android:tint="@color/accent_cyan"/>
+
+                <EditText
+                    android:id="@+id/etUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:textColorHint="@color/text_dim"
+                    android:textColor="@color/text_white"
+                    android:background="@null"
+                    android:layout_marginStart="12dp"
+                    android:inputType="text"
+                    android:fontFamily="@font/inter"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+            <!-- PASSWORD -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_input_dark"
+                android:padding="14dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@android:drawable/ic_lock_lock"
+                    android:tint="@color/accent_cyan"/>
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColorHint="@color/text_dim"
+                    android:textColor="@color/text_white"
+                    android:background="@null"
+                    android:layout_marginStart="12dp"
+                    android:inputType="textPassword"
+                    android:fontFamily="@font/inter"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+            <!-- TOMBOL LOGIN -->
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="SIGN IN"
+                android:textColor="@color/text_white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:fontFamily="@font/orbitron"
+                android:background="@drawable/bg_button_neon"
+                android:layout_marginTop="32dp"/>
+
+            <!-- TOMBOL BELI AKSES -->
+            <Button
+                android:id="@+id/btnBeliAkses"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="🛒 BELI AKSES"
+                android:textColor="@color/text_white"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron"
+                android:background="@drawable/bg_card_glass"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="— DARK XRAT MANTAX LOGIN —"
+                android:textColor="@color/text_dim"
+                android:textSize="10sp"
+                android:fontFamily="@font/rajdhani"
+                android:layout_marginTop="28dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

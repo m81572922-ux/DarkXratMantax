@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_blue">#0066FF</color>
+    <color name="accent_blue_dark">#0044CC</color>
+    <color name="accent_cyan">#00E5FF</color>
+    <color name="accent_glow">#00E5FF</color>
+    <color name="bg_card">#0F0F1E</color>
+    <color name="bg_card_2">#15152A</color>
+    <color name="bg_dark">#050510</color>
+    <color name="bg_dark_2">#0A0A1A</color>
+    <color name="bg_input">#151A3A</color>
+    <color name="border_cyan">#00E5FF</color>
+    <color name="border_neon">#1E2A5A</color>
+    <color name="danger">#FF2E63</color>
+    <color name="grad_end">#00E5FF</color>
+    <color name="grad_start">#0066FF</color>
+    <color name="info">#00BFFF</color>
+    <color name="success">#00FF88</color>
+    <color name="text_black">#000000</color>
+    <color name="text_dim">#6B7280</color>
+    <color name="text_gray">#888888</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="warning">#FFB800</color>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="corner_large">16dp</dimen>
+    <dimen name="corner_medium">12dp</dimen>
+    <dimen name="corner_small">8dp</dimen>
+    <dimen name="corner_xlarge">20dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="input_height">52dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_title">28sp</dimen>
+    <dimen name="text_xlarge">24sp</dimen>
+    <string name="app_name">DARK XRAT MANTAX</string>
+    <string name="bug">Bug</string>
+    <string name="chat">Chat</string>
+    <string name="ganti_password">GANTI PASSWORD</string>
+    <string name="home">Home</string>
+    <string name="launch">LAUNCH ATTACK</string>
+    <string name="login_error">NO VALID AKUN GAGAL⚠️</string>
+    <string name="logout">KELUAR</string>
+    <string name="password">Password</string>
+    <string name="profil">Profil</string>
+    <string name="role">ROLE</string>
+    <string name="sadap">Sadap</string>
+    <string name="select_bug">SELECT BUG</string>
+    <string name="select_sender">SELECT SENDER</string>
+    <string name="sender">SENDER</string>
+    <string name="settings">Pengaturan</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="skip">SKIP</string>
+    <string name="sub_welcome">Masuk ke akun Anda</string>
+    <string name="target">NOMOR TARGET</string>
+    <string name="tools">Tools</string>
+    <string name="tutup">TUTUP</string>
+    <string name="username">Username</string>
+    <string name="welcome_back">Welcome Back</string>
+    <style name="Theme.DarkXratMantax" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_blue</item>
+        <item name="colorPrimaryDark">@color/bg_dark</item>
+        <item name="colorAccent">@color/accent_cyan</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:textColorPrimary">@color/text_white</item>
+    </style>
+    <style name="Theme.DarkXratMantax.FullScreen" parent="Theme.DarkXratMantax">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

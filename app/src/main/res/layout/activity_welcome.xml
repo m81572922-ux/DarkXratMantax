@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- BANNER -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/banner_main"
+                android:scaleType="centerCrop"/>
+
+            <!-- JUDUL -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DARK XRAT MANTAX"
+                android:textColor="@color/accent_cyan"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aplikasi Yang Dikembangkan Dark Xrat Team"
+                android:textColor="@color/text_gray"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp"/>
+
+            <!-- TENTANG -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card_glass"
+                android:padding="16dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Dark Xrat"
+                    android:textColor="@color/accent_cyan"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/orbitron"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dark Xrat adalah platform tools canggih yang dirancang untuk memberikan performa terbaik. Dikembangkan secara profesional oleh tim Dark Xrat dengan teknologi mutakhir dan sistem keamanan tinggi."
+                    android:textColor="@color/text_white"
+                    android:textSize="12sp"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <!-- TOMBOL SIGN IN -->
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="→ SIGN-IN TO DARK XRAT"
+                android:textColor="@color/text_white"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron"
+                android:background="@drawable/bg_button_neon"
+                android:layout_marginTop="20dp"/>
+
+            <!-- TOMBOL DEVELOPER + OWNER -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp">
+
+                <Button
+                    android:id="@+id/btnDeveloper"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="52dp"
+                    android:text="Developer"
+                    android:textColor="@color/text_white"
+                    android:textStyle="bold"
+                    android:background="@drawable/bg_button_neon"
+                    android:layout_marginEnd="6dp"/>
+
+                <Button
+                    android:id="@+id/btnOwner"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="52dp"
+                    android:text="Owner"
+                    android:textColor="@color/text_white"
+                    android:textStyle="bold"
+                    android:background="@drawable/bg_button_neon"
+                    android:layout_marginStart="6dp"/>
+            </LinearLayout>
+
+            <!-- TOMBOL BELI AKSES -->
+            <Button
+                android:id="@+id/btnBeliAkses"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="🛒 BELI AKSES"
+                android:textColor="@color/text_white"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron"
+                android:background="@drawable/bg_button_neon"
+                android:layout_marginTop="12dp"/>
+
+            <!-- TOMBOL CONTACT SUPPORT -->
+            <Button
+                android:id="@+id/btnContactSupport"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="🎧 CONTACT SUPPORT"
+                android:textColor="@color/text_white"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron"
+                android:background="@drawable/bg_card_glass"
+                android:layout_marginTop="12dp"/>
+
+            <!-- FOOTER -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By : King Afandi"
+                android:textColor="@color/accent_cyan"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="© 2026 Dark Xrat Team - All Rights Reserved"
+                android:textColor="@color/text_dim"
+                android:textSize="10sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

